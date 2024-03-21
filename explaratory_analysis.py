@@ -13,7 +13,7 @@ st.set_page_config(
     layout="wide"
 )
 
-matches = pd.read_csv('C:/Users/user/Desktop/Senior_Proj/tasks/La-Liga-Stats-0.csv', encoding='utf-8')
+matches = pd.read_csv('La-Liga-Stats-0.csv', encoding='utf-8')
 
 # Use map with a lambda function to filter non-ASCII characters
 def convert_to_ascii(x):
@@ -24,7 +24,7 @@ def convert_to_ascii(x):
 
 matches = matches.map(convert_to_ascii)  # Apply the function element-wise
 
-image = Image.open('C:/Users/user/Desktop/Senior_Proj/tasks/football.jpeg')
+image = Image.open('football.jpeg')
 
 st.write("""
 # LaLiga Half Season Explaratory Data Analysis 
@@ -130,7 +130,7 @@ st.pyplot(fig)
 
 st.write('***')              #fig 5,6
 st.title("Points for Each Team Over Weeks")
-points = pd.read_csv('C:/Users/user/Desktop/Senior_Proj/tasks/points.csv')
+points = pd.read_csv('points.csv')
 points.set_index('Week', inplace=True)
 st.write(points)
 
@@ -172,7 +172,7 @@ st.write('***')
 
 #fig 7,8
 st.title("Goal_difference for Each Team Over Weeks")
-goals = pd.read_csv('C:/Users/user/Desktop/Senior_Proj/tasks/goals.csv')
+goals = pd.read_csv('goals.csv')
 goals.set_index('week', inplace=True)
 st.write(goals)
 
@@ -209,7 +209,7 @@ st.pyplot(fig)
 
 #fig 9, 10
 st.title("Goal-Acummulation for Each Team Over Weeks")
-goals_count = pd.read_csv('C:/Users/user/Desktop/Senior_Proj/tasks/goals_count.csv')
+goals_count = pd.read_csv('goals_count.csv')
 goals_count.set_index('week', inplace=True)
 st.write(goals_count)
 
