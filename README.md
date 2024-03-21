@@ -10,16 +10,17 @@ Customize visualizations based on preferences.
 ## Installation
 Clone this repository to your local machine.
 Install the required dependencies using pip:
-Copy code
-pip install -r requirements.txt
+
+`pip install -r requirements.txt`
 ## Usage
 Navigate to the directory containing the cloned repository.
 Run the Streamlit app using the following command:
 arduino
-Copy code
-streamlit run app.py
+
+`streamlit run app.py`
 The app will open in your default web browser, allowing you to interact with the charts and analyses.
-Data
+
+## Data
 The data used in this application is sourced from LaLiga football matches. It includes information such as team names, match results, points earned, goal differences, and more.
 
 ## Contributors
