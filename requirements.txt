@@ -1,0 +1,7 @@
+Pillow
+streamlit
+pandas
+matplotlib
+mplcyberpunk
+numpy
+pygwalker
