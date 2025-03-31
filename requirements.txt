@@ -2,6 +2,6 @@ Pillow
 streamlit
 pandas
 matplotlib
-mplcyberpunk==0.6.0
+mplcyberpunk==0.7.0
 numpy
 pygwalker
